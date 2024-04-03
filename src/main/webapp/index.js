@@ -2,11 +2,7 @@ function toggleBanner() {
     let banner = document.getElementById("banner");
     banner.classList.toggle("oculto");
     let boton = document.querySelector(".boton");
-    if (banner.classList.contains("oculto")) {
-        boton.textContent = "Abrir banner";
-    } else {
-        boton.textContent = "Cerrar banner";
-    }
+    boton.textContent = banner.classList.contains("oculto") ? "Abrir banner" : "Cerrar banner";
 }
 
 function llamarServlet() {
