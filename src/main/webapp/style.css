@@ -1,0 +1,37 @@
+ /* Estilos opcionales para el banner */
+ header {
+    background-color: #ffd700; /* Cambio de color a dorado */
+    color: #000; /* Color del texto cambiado a negro */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    transition: height 0.5s ease; /* Transición suave en la altura */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+/* Estilo para ocultar el banner */
+.oculto {
+    display: none; /* Oculta el banner */
+}
+
+/* Estilo para el contenedor del botón */
+.boton-container {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+/* Estilo para el botón */
+.boton {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambio de color de fondo del botón al pasar el mouse sobre él */
+.boton:hover {
+    background-color: #0056b3; /* Nuevo color de fondo azul */
+}
